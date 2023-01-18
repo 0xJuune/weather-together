@@ -4,3 +4,19 @@
     align-items: center;
 }
 
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+}
+.navbar-left > svg {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+/* .navbar-left > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+.searchbar > form {
+    margin-right: 15px;
+}
