@@ -2,9 +2,12 @@ import React from 'react';
 
 function Searchbar() {
     return (
-        <form action="" onSubmit="return false;">
-            <input type="text" name="location" id="location" placeholder="City / ZIP Code" />
-        </form>
+        <div>
+            <form action="" onSubmit="return false;">
+                <input type="text" name="location" id="location" placeholder="City / ZIP Code" />
+            </form>
+            <button>Search</button>
+        </div>
     )
 }
 

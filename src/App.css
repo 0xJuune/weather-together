@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border: 1px solid black; */
 }
 
 .navbar-left {
     display: flex;
     flex-direction: row;
+    /* border: 1px solid blue; */
 }
 .navbar-left > svg {
     margin-left: 5px;
@@ -15,6 +17,10 @@
 
 /* .navbar-left > p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+/* .navbar-right {
+    border: 1px solid red;
 } */
 
 .searchbar > form {
